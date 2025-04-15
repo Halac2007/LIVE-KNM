@@ -52,37 +52,37 @@
     <meta name="zalo-platform-site-verification" content="J8w6BCU-5ZimWAOWoA4F9Y7McJ7DfqneDJG" />
     <script>
       var cmsConfig = {
-        domainDesktop: "https://beta.plo.vn",
-        domainMobile: "https://beta.plo.vn",
-        domainApi: "https://beta-api.plo.vn",
-        domainStatic: "https://static-cms-plo.epicdn.me/v4/web",
-        domainLog: "https://beta-log.plo.vn",
-        googleAnalytics: "G-LRBCS8D716",
+        domainDesktop: 'https://beta.plo.vn',
+        domainMobile: 'https://beta.plo.vn',
+        domainApi: 'https://beta-api.plo.vn',
+        domainStatic: 'https://static-cms-plo.epicdn.me/v4/web',
+        domainLog: 'https://beta-log.plo.vn',
+        googleAnalytics: 'G-LRBCS8D716',
         siteId: 0,
         adsZone: 333,
         adsLazy: true,
-      };
-      if (window.location.protocol !== "https:" && window.location.hostname.indexOf("plo.vn") !== -1) {
-        window.location = "https://" + window.location.hostname + window.location.pathname + window.location.hash;
       }
-      var USER_AGENT = (window.navigator && window.navigator.userAgent) || "",
+      if (window.location.protocol !== 'https:' && window.location.hostname.indexOf('plo.vn') !== -1) {
+        window.location = 'https://' + window.location.hostname + window.location.pathname + window.location.hash
+      }
+      var USER_AGENT = (window.navigator && window.navigator.userAgent) || '',
         IS_MOBILE = /Android|webOS|iPhone|iPod|BlackBerry|Windows Phone|IEMobile|Mobile Safari|Opera Mini/i.test(USER_AGENT),
-        IS_REDIRECT = !1;
+        IS_REDIRECT = !1
       function setCookie(e, o, i) {
         var n = new Date(),
-          i = (n.setTime(n.getTime() + 24 * i * 60 * 60 * 1e3), "expires=" + n.toUTCString());
-        document.cookie = e + "=" + o + "; " + i + ";path=/;";
+          i = (n.setTime(n.getTime() + 24 * i * 60 * 60 * 1e3), 'expires=' + n.toUTCString())
+        document.cookie = e + '=' + o + '; ' + i + ';path=/;'
       }
       function getCookie(e) {
-        var o = document.cookie.indexOf(e + "="),
-          i = o + e.length + 1;
+        var o = document.cookie.indexOf(e + '='),
+          i = o + e.length + 1
         return (!o && e !== document.cookie.substring(0, e.length)) || -1 === o
           ? null
-          : (-1 === (e = document.cookie.indexOf(";", i)) && (e = document.cookie.length), unescape(document.cookie.substring(i, e)));
+          : (-1 === (e = document.cookie.indexOf(';', i)) && (e = document.cookie.length), unescape(document.cookie.substring(i, e)))
       }
       IS_MOBILE &&
-        getCookie("isDesktop") &&
-        (setCookie("isDesktop", 1, -1), (window.location = window.location.pathname + window.location.search), (IS_REDIRECT = !0));
+        getCookie('isDesktop') &&
+        (setCookie('isDesktop', 1, -1), (window.location = window.location.pathname + window.location.search), (IS_REDIRECT = !0))
     </script>
     <meta content="Tiến vào kỷ nguyên mới" itemprop="articleSection" />
     <meta name="author" content="Báo Pháp Luật TP. Hồ Chí Minh" />
@@ -141,38 +141,38 @@
     <link rel="preload" href="https://static.plo.vn/v4/web/knm/css/main.min.css?v=1000" as="style" />
     <link rel="preload" href="https://static.plo.vn/v4/web/knm/js/main.min.js?v=1000" as="script" />
 
-    <link rel="stylesheet" href="https://static.plo.vn/v4/web/knm/css/main.min.css?v=1000" />
+    <link rel="stylesheet" href="css/main.min.css?v=1000" />
     <link rel="stylesheet" href="css/style.css" />
 
     <script type="text/javascript">
-      var _metaOgUrl = "https://beta.plo.vn/tien-vao-ky-nguyen-moi/";
-      var page_title = document.title;
-      var tracked_url = window.location.pathname + window.location.search + window.location.hash;
+      var _metaOgUrl = 'https://beta.plo.vn/tien-vao-ky-nguyen-moi/'
+      var page_title = document.title
+      var tracked_url = window.location.pathname + window.location.search + window.location.hash
     </script>
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-LRBCS8D716"></script>
     <script>
       if (!IS_REDIRECT) {
-        window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || []
         function gtag() {
-          dataLayer.push(arguments);
+          dataLayer.push(arguments)
         }
-        gtag("js", new Date());
-        gtag("config", "G-LRBCS8D716");
+        gtag('js', new Date())
+        gtag('config', 'G-LRBCS8D716')
       }
     </script>
 
     <!-- Google Tag Manager -->
     <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      ;(function (w, d, s, l, i) {
+        w[l] = w[l] || []
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' })
         var f = d.getElementsByTagName(s)[0],
           j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-T6NZPXVC");
+          dl = l != 'dataLayer' ? '&l=' + l : ''
+        j.async = true
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+        f.parentNode.insertBefore(j, f)
+      })(window, document, 'script', 'dataLayer', 'GTM-T6NZPXVC')
     </script>
     <!-- End Google Tag Manager -->
     <script async defer src="https://static.plo.vn/v4/web/js/log.min.js?v=1.1"></script>
@@ -253,10 +253,10 @@
             <div class="col-xs-12 col-sm-9 col-md-9 header-right">
               <div id="adsWeb_AdsHeaderRight" class="banner clearfix" data-platform="1" data-position="Web_AdsHeaderRight">
                 <script>
-                  if (typeof Web_AdsHeaderRight != "undefined") {
-                    window.CMS_BANNER.pushAds(Web_AdsHeaderRight, "adsWeb_AdsHeaderRight");
+                  if (typeof Web_AdsHeaderRight != 'undefined') {
+                    window.CMS_BANNER.pushAds(Web_AdsHeaderRight, 'adsWeb_AdsHeaderRight')
                   } else {
-                    document.getElementById("adsWeb_AdsHeaderRight").style.display = "none";
+                    document.getElementById('adsWeb_AdsHeaderRight').style.display = 'none'
                   }
                 </script>
               </div>
@@ -279,7 +279,9 @@
                 <div class="collapse navbar-collapse navbar-responsive-collapse">
                   <ul class="nav navbar-nav">
                     <li>
-                      <a href="https://beta.plo.vn/sap-xep-tinh-gon-bo-may/" title="Sắp xếp, tinh gọn bộ máy">Sắp xếp, tinh gọn bộ máy</a>
+                      <a href="https://beta.plo.vn/sap-xep-tinh-gon-bo-may/" title="Sắp xếp, tinh gọn bộ máy"
+                        >Sắp xếp, tinh gọn bộ máy</a
+                      >
                     </li>
 
                     <li>
@@ -287,7 +289,9 @@
                     </li>
 
                     <li>
-                      <a href="https://beta.plo.vn/tp-hcm-cung-dat-nuoc-tien-vao-ky-nguyen-moi/" title="TP.HCM cùng đất nước tiến vào kỷ nguyên mới"
+                      <a
+                        href="https://beta.plo.vn/tp-hcm-cung-dat-nuoc-tien-vao-ky-nguyen-moi/"
+                        title="TP.HCM cùng đất nước tiến vào kỷ nguyên mới"
                         >TP.HCM cùng đất nước tiến vào kỷ nguyên mới</a
                       >
                     </li>
@@ -390,7 +394,8 @@
                         href="https://beta.plo.vn/gop-y-mo-hinh-hoat-dong-cua-chinh-quyen-cap-xa-sau-khi-bo-cap-huyen-post840165.html"
                         title="Góp ý mô hình hoạt động của chính quyền cấp xã sau khi bỏ cấp huyện"
                       >
-                        Góp ý mô hình hoạt động của chính quyền cấp xã sau khi bỏ cấp huyện<i class="ic-type-img"></i><i class="ic-type-text">LENS</i>
+                        Góp ý mô hình hoạt động của chính quyền cấp xã sau khi bỏ cấp huyện<i class="ic-type-img"></i
+                        ><i class="ic-type-text">LENS</i>
                       </a>
                     </h2>
                   </div>
@@ -438,13 +443,19 @@
                 >
                   <div
                     class="item"
-                    style="background-image: url(https://image.plo.vn/667x454/Uploaded/2025/vrwqlqdwp/2025_03_28/bo-cap-huyen-3410-8729.jpg.webp)"
+                    style="
+                      background-image: url(https://image.plo.vn/667x454/Uploaded/2025/vrwqlqdwp/2025_03_28/bo-cap-huyen-3410-8729.jpg.webp);
+                    "
                   >
                     <div class="featured-post">
                       <div class="post-content">
-                        <h2 class="post-title title-extra-large">Bỏ cấp huyện: Ưu tiên tuyển người có chuyên môn cao về công tác tại cấp xã</h2>
+                        <h2 class="post-title title-extra-large">
+                          Bỏ cấp huyện: Ưu tiên tuyển người có chuyên môn cao về công tác tại cấp xã
+                        </h2>
 
-                        <span class="post-date" datetime="2025-03-28T19:17:54+0700" data-time="1743164274" data-friendly="true"> 28/03/2025 19:17 </span>
+                        <span class="post-date" datetime="2025-03-28T19:17:54+0700" data-time="1743164274" data-friendly="true">
+                          28/03/2025 19:17
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -462,9 +473,13 @@
                   >
                     <div class="featured-post">
                       <div class="post-content">
-                        <h2 class="post-title title-extra-large">Bộ Nội vụ đề xuất không phân biệt cán bộ, công chức cấp xã với cấp Trung ương, tỉnh</h2>
+                        <h2 class="post-title title-extra-large">
+                          Bộ Nội vụ đề xuất không phân biệt cán bộ, công chức cấp xã với cấp Trung ương, tỉnh
+                        </h2>
 
-                        <span class="post-date" datetime="2025-03-28T05:59:00+0700" data-time="1743116340" data-friendly="true"> 28/03/2025 05:59 </span>
+                        <span class="post-date" datetime="2025-03-28T05:59:00+0700" data-time="1743116340" data-friendly="true">
+                          28/03/2025 05:59
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -513,7 +528,9 @@
                         />
                       </div>
                       <div class="post-content">
-                        <h2 class="post-title title-medium">Chủ tịch Nguyễn Văn Được nói về định hướng sáp nhập, sắp xếp các phường, xã ở TP.HCM</h2>
+                        <h2 class="post-title title-medium">
+                          Chủ tịch Nguyễn Văn Được nói về định hướng sáp nhập, sắp xếp các phường, xã ở TP.HCM
+                        </h2>
                       </div>
                     </a>
                   </div>
@@ -533,7 +550,9 @@
                         />
                       </div>
                       <div class="post-content">
-                        <h2 class="post-title title-medium">Bí thư Nguyễn Văn Nên: TP.HCM có thể mở rộng địa giới để tạo không gian phát triển lớn hơn</h2>
+                        <h2 class="post-title title-medium">
+                          Bí thư Nguyễn Văn Nên: TP.HCM có thể mở rộng địa giới để tạo không gian phát triển lớn hơn
+                        </h2>
                       </div>
                     </a>
                   </div>
@@ -549,7 +568,9 @@
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
               <section class="block color-blue">
                 <h3 class="block-title">
-                  <a href="https://beta.plo.vn/sap-xep-tinh-gon-bo-may/" class="color-blue" title="Sắp xếp, tinh gọn bộ máy"> Sắp xếp, tinh gọn bộ máy </a>
+                  <a href="https://beta.plo.vn/sap-xep-tinh-gon-bo-may/" class="color-blue" title="Sắp xếp, tinh gọn bộ máy">
+                    Sắp xếp, tinh gọn bộ máy
+                  </a>
                 </h3>
                 <div class="row">
                   <div class="col-md-6 col-sm-6">
@@ -580,16 +601,20 @@
                         </h2>
                         <div class="post-meta">
                           <span class="post-author"
-                            ><a href="https://beta.plo.vn/tac-gia/phuong-nam-vo-tung-0.html" title="PHƯƠNG NAM - VÕ TÙNG">PHƯƠNG NAM - VÕ TÙNG</a></span
+                            ><a href="https://beta.plo.vn/tac-gia/phuong-nam-vo-tung-0.html" title="PHƯƠNG NAM - VÕ TÙNG"
+                              >PHƯƠNG NAM - VÕ TÙNG</a
+                            ></span
                           >
 
-                          <span class="post-date" datetime="2025-04-14T07:54:17+0700" data-time="1744592057" data-friendly="true"> 14/04/2025 07:54 </span>
+                          <span class="post-date" datetime="2025-04-14T07:54:17+0700" data-time="1744592057" data-friendly="true">
+                            14/04/2025 07:54
+                          </span>
                         </div>
 
                         <div class="color-blue story__shorten">
                           <p data-listener-added_078fceef="true">
-                            (PLO)-Chủ tịch UBND tỉnh Lâm Đồng yêu cầu các sở, ban, ngành phối hợp với các sở, ban, ngành của tỉnh Bình Thuận và Đắk Nông xây
-                            dựng Đề án sáp nhập từng sở, ban, ngành của 3 tỉnh.
+                            (PLO)-Chủ tịch UBND tỉnh Lâm Đồng yêu cầu các sở, ban, ngành phối hợp với các sở, ban, ngành của tỉnh Bình
+                            Thuận và Đắk Nông xây dựng Đề án sáp nhập từng sở, ban, ngành của 3 tỉnh.
                           </p>
                         </div>
                       </div>
@@ -621,11 +646,17 @@
                                   href="https://beta.plo.vn/chi-tiet-du-kien-ten-goi-va-vi-tri-dat-trung-tam-chinh-tri-hanh-chinh-cua-34-tinh-thanh-pho-sau-sap-xep-post844165.html"
                                   title="Chi tiết dự kiến tên gọi và vị trí đặt trung tâm chính trị - hành chính của 34 tỉnh, thành phố sau sắp xếp"
                                 >
-                                  Chi tiết dự kiến tên gọi và vị trí đặt trung tâm chính trị - hành chính của 34 tỉnh, thành phố sau sắp xếp
+                                  Chi tiết dự kiến tên gọi và vị trí đặt trung tâm chính trị - hành chính của 34 tỉnh, thành phố sau
+                                  sắp xếp
                                 </a>
                               </h2>
                               <div class="post-meta">
-                                <span class="post-date" datetime="2025-04-13T23:19:19+0700" data-time="1744561159" data-friendly="true">
+                                <span
+                                  class="post-date"
+                                  datetime="2025-04-13T23:19:19+0700"
+                                  data-time="1744561159"
+                                  data-friendly="true"
+                                >
                                   13/04/2025 23:19
                                 </span>
                               </div>
@@ -656,11 +687,18 @@
                                   href="https://beta.plo.vn/nguyen-chu-tich-ubnd-tinh-quang-binh-pham-phuoc-khong-the-om-mai-cam-xuc-dia-phuong-post843535.html"
                                   title="Nguyên Chủ tịch UBND tỉnh Quảng Bình Phạm Phước: 'Không thể ôm mãi cảm xúc địa phương'"
                                 >
-                                  Nguyên Chủ tịch UBND tỉnh Quảng Bình Phạm Phước: &apos;Không thể ôm mãi cảm xúc địa phương&apos;<i class="ic-type-img"></i>
+                                  Nguyên Chủ tịch UBND tỉnh Quảng Bình Phạm Phước: &apos;Không thể ôm mãi cảm xúc địa phương&apos;<i
+                                    class="ic-type-img"
+                                  ></i>
                                 </a>
                               </h2>
                               <div class="post-meta">
-                                <span class="post-date" datetime="2025-04-13T06:38:00+0700" data-time="1744501080" data-friendly="true">
+                                <span
+                                  class="post-date"
+                                  datetime="2025-04-13T06:38:00+0700"
+                                  data-time="1744501080"
+                                  data-friendly="true"
+                                >
                                   13/04/2025 06:38
                                 </span>
                               </div>
@@ -695,7 +733,12 @@
                                 </a>
                               </h2>
                               <div class="post-meta">
-                                <span class="post-date" datetime="2025-04-12T10:42:28+0700" data-time="1744429348" data-friendly="true">
+                                <span
+                                  class="post-date"
+                                  datetime="2025-04-12T10:42:28+0700"
+                                  data-time="1744429348"
+                                  data-friendly="true"
+                                >
                                   12/04/2025 10:42
                                 </span>
                               </div>
@@ -730,7 +773,12 @@
                                 </a>
                               </h2>
                               <div class="post-meta">
-                                <span class="post-date" datetime="2025-04-11T15:58:22+0700" data-time="1744361902" data-friendly="true">
+                                <span
+                                  class="post-date"
+                                  datetime="2025-04-11T15:58:22+0700"
+                                  data-time="1744361902"
+                                  data-friendly="true"
+                                >
                                   11/04/2025 15:58
                                 </span>
                               </div>
@@ -775,15 +823,19 @@
                           </a>
                         </h2>
                         <div class="post-meta">
-                          <span class="post-author"><a href="https://beta.plo.vn/tac-gia/nguyen-thao-14.html" title="NGUYỄN THẢO">NGUYỄN THẢO</a></span>
+                          <span class="post-author"
+                            ><a href="https://beta.plo.vn/tac-gia/nguyen-thao-14.html" title="NGUYỄN THẢO">NGUYỄN THẢO</a></span
+                          >
 
-                          <span class="post-date" datetime="2025-04-12T08:48:31+0700" data-time="1744422511" data-friendly="true"> 12/04/2025 08:48 </span>
+                          <span class="post-date" datetime="2025-04-12T08:48:31+0700" data-time="1744422511" data-friendly="true">
+                            12/04/2025 08:48
+                          </span>
                         </div>
 
                         <div class="color-orange story__shorten">
                           <p>
-                            (PLO)- Chính phủ giao các bộ, cơ quan ngang bộ khẩn trương xây dựng, ban hành các văn bản để hướng dẫn các địa phương chuyển tiếp
-                            công việc, bảo đảm không để gián đoạn khi sáp nhập tỉnh, bỏ cấp huyện, sắp xếp xã.
+                            (PLO)- Chính phủ giao các bộ, cơ quan ngang bộ khẩn trương xây dựng, ban hành các văn bản để hướng dẫn các
+                            địa phương chuyển tiếp công việc, bảo đảm không để gián đoạn khi sáp nhập tỉnh, bỏ cấp huyện, sắp xếp xã.
                           </p>
                         </div>
                       </div>
@@ -819,7 +871,12 @@
                                 </a>
                               </h2>
                               <div class="post-meta">
-                                <span class="post-date" datetime="2025-04-11T20:48:32+0700" data-time="1744379312" data-friendly="true">
+                                <span
+                                  class="post-date"
+                                  datetime="2025-04-11T20:48:32+0700"
+                                  data-time="1744379312"
+                                  data-friendly="true"
+                                >
                                   11/04/2025 20:48
                                 </span>
                               </div>
@@ -854,7 +911,12 @@
                                 </a>
                               </h2>
                               <div class="post-meta">
-                                <span class="post-date" datetime="2025-04-10T15:21:16+0700" data-time="1744273276" data-friendly="true">
+                                <span
+                                  class="post-date"
+                                  datetime="2025-04-10T15:21:16+0700"
+                                  data-time="1744273276"
+                                  data-friendly="true"
+                                >
                                   10/04/2025 15:21
                                 </span>
                               </div>
@@ -889,7 +951,12 @@
                                 </a>
                               </h2>
                               <div class="post-meta">
-                                <span class="post-date" datetime="2025-04-10T11:50:26+0700" data-time="1744260626" data-friendly="true">
+                                <span
+                                  class="post-date"
+                                  datetime="2025-04-10T11:50:26+0700"
+                                  data-time="1744260626"
+                                  data-friendly="true"
+                                >
                                   10/04/2025 11:50
                                 </span>
                               </div>
@@ -924,7 +991,12 @@
                                 </a>
                               </h2>
                               <div class="post-meta">
-                                <span class="post-date" datetime="2025-03-29T20:08:39+0700" data-time="1743253719" data-friendly="true">
+                                <span
+                                  class="post-date"
+                                  datetime="2025-03-29T20:08:39+0700"
+                                  data-time="1743253719"
+                                  data-friendly="true"
+                                >
                                   29/03/2025 20:08
                                 </span>
                               </div>
@@ -939,7 +1011,11 @@
 
               <section class="block color-orange">
                 <h3 class="block-title">
-                  <a href="https://beta.plo.vn/tp-hcm-cung-dat-nuoc-tien-vao-ky-nguyen-moi/" class="" title="TP.HCM cùng đất nước tiến vào kỷ nguyên mới">
+                  <a
+                    href="https://beta.plo.vn/tp-hcm-cung-dat-nuoc-tien-vao-ky-nguyen-moi/"
+                    class=""
+                    title="TP.HCM cùng đất nước tiến vào kỷ nguyên mới"
+                  >
                     TP.HCM cùng đất nước tiến vào kỷ nguyên mới
                   </a>
                 </h3>
@@ -967,11 +1043,15 @@
                             href="https://beta.plo.vn/tphcm-xay-dung-doi-ngu-can-bo-cap-chien-luoc-ngang-tam-nhiem-vu-khi-sap-xep-bo-may-post841415.html"
                             title="TP.HCM xây dựng đội ngũ cán bộ cấp chiến lược ngang tầm nhiệm vụ khi sắp xếp bộ máy"
                           >
-                            TP.HCM xây dựng đội ngũ cán bộ cấp chiến lược ngang tầm nhiệm vụ khi sắp xếp bộ máy<i class="ic-type-img"></i>
+                            TP.HCM xây dựng đội ngũ cán bộ cấp chiến lược ngang tầm nhiệm vụ khi sắp xếp bộ máy<i
+                              class="ic-type-img"
+                            ></i>
                           </a>
                         </h2>
                         <div class="post-meta">
-                          <span class="post-date" datetime="2025-03-28T20:50:41+0700" data-time="1743169841" data-friendly="true"> 28/03/2025 20:50 </span>
+                          <span class="post-date" datetime="2025-03-28T20:50:41+0700" data-time="1743169841" data-friendly="true">
+                            28/03/2025 20:50
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -1004,7 +1084,12 @@
                                 </a>
                               </h2>
                               <div class="post-meta">
-                                <span class="post-date" datetime="2025-03-25T17:59:02+0700" data-time="1742900342" data-friendly="true">
+                                <span
+                                  class="post-date"
+                                  datetime="2025-03-25T17:59:02+0700"
+                                  data-time="1742900342"
+                                  data-friendly="true"
+                                >
                                   25/03/2025 17:59
                                 </span>
                               </div>
@@ -1035,11 +1120,17 @@
                                   href="https://beta.plo.vn/ong-nguyen-van-duoc-tphcm-huong-den-xay-dung-khong-gian-da-trung-tam-post840748.html"
                                   title="Ông Nguyễn Văn Được: TP.HCM hướng đến xây dựng không gian đa trung tâm"
                                 >
-                                  Ông Nguyễn Văn Được: TP.HCM hướng đến xây dựng không gian đa trung tâm<i class="ic-type-video"></i><i class="ic-type-img"></i>
+                                  Ông Nguyễn Văn Được: TP.HCM hướng đến xây dựng không gian đa trung tâm<i class="ic-type-video"></i
+                                  ><i class="ic-type-img"></i>
                                 </a>
                               </h2>
                               <div class="post-meta">
-                                <span class="post-date" datetime="2025-03-25T16:08:42+0700" data-time="1742893722" data-friendly="true">
+                                <span
+                                  class="post-date"
+                                  datetime="2025-03-25T16:08:42+0700"
+                                  data-time="1742893722"
+                                  data-friendly="true"
+                                >
                                   25/03/2025 16:08
                                 </span>
                               </div>
@@ -1070,14 +1161,17 @@
                                   href="https://beta.plo.vn/can-bo-tphcm-manh-dan-doi-moi-vi-dan-bai-cuoi-dam-hoc-tap-dam-hanh-dong-de-tien-vao-ky-nguyen-moi-post839766.html"
                                   title="Cán bộ TP.HCM mạnh dạn đổi mới vì dân - Bài cuối: Dám học tập, dám hành động để tiến vào kỷ nguyên mới"
                                 >
-                                  Cán bộ TP.HCM mạnh dạn đổi mới vì dân - Bài cuối: Dám học tập, dám hành động để tiến vào kỷ nguyên mới<i
-                                    class="ic-type-img"
-                                  ></i
-                                  ><i class="ic-type-text">LENS</i>
+                                  Cán bộ TP.HCM mạnh dạn đổi mới vì dân - Bài cuối: Dám học tập, dám hành động để tiến vào kỷ nguyên
+                                  mới<i class="ic-type-img"></i><i class="ic-type-text">LENS</i>
                                 </a>
                               </h2>
                               <div class="post-meta">
-                                <span class="post-date" datetime="2025-03-20T06:00:00+0700" data-time="1742425200" data-friendly="true">
+                                <span
+                                  class="post-date"
+                                  datetime="2025-03-20T06:00:00+0700"
+                                  data-time="1742425200"
+                                  data-friendly="true"
+                                >
                                   20/03/2025 06:00
                                 </span>
                               </div>
@@ -1112,7 +1206,12 @@
                                 </a>
                               </h2>
                               <div class="post-meta">
-                                <span class="post-date" datetime="2025-03-19T16:51:45+0700" data-time="1742377905" data-friendly="true">
+                                <span
+                                  class="post-date"
+                                  datetime="2025-03-19T16:51:45+0700"
+                                  data-time="1742377905"
+                                  data-friendly="true"
+                                >
                                   19/03/2025 16:51
                                 </span>
                               </div>
@@ -1150,7 +1249,9 @@
                           </a>
                         </h2>
                         <div class="post-meta">
-                          <span class="post-date" datetime="2025-03-28T17:58:29+0700" data-time="1743159509" data-friendly="true"> 28/03/2025 17:58 </span>
+                          <span class="post-date" datetime="2025-03-28T17:58:29+0700" data-time="1743159509" data-friendly="true">
+                            28/03/2025 17:58
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -1183,7 +1284,12 @@
                                 </a>
                               </h2>
                               <div class="post-meta">
-                                <span class="post-date" datetime="2025-03-17T11:21:46+0700" data-time="1742185306" data-friendly="true">
+                                <span
+                                  class="post-date"
+                                  datetime="2025-03-17T11:21:46+0700"
+                                  data-time="1742185306"
+                                  data-friendly="true"
+                                >
                                   17/03/2025 11:21
                                 </span>
                               </div>
@@ -1218,7 +1324,12 @@
                                 </a>
                               </h2>
                               <div class="post-meta">
-                                <span class="post-date" datetime="2025-02-21T15:01:57+0700" data-time="1740124917" data-friendly="true">
+                                <span
+                                  class="post-date"
+                                  datetime="2025-02-21T15:01:57+0700"
+                                  data-time="1740124917"
+                                  data-friendly="true"
+                                >
                                   21/02/2025 15:01
                                 </span>
                               </div>
@@ -1253,7 +1364,12 @@
                                 </a>
                               </h2>
                               <div class="post-meta">
-                                <span class="post-date" datetime="2025-02-08T06:16:00+0700" data-time="1738970160" data-friendly="true">
+                                <span
+                                  class="post-date"
+                                  datetime="2025-02-08T06:16:00+0700"
+                                  data-time="1738970160"
+                                  data-friendly="true"
+                                >
                                   08/02/2025 06:16
                                 </span>
                               </div>
@@ -1288,7 +1404,12 @@
                                 </a>
                               </h2>
                               <div class="post-meta">
-                                <span class="post-date" datetime="2025-02-05T20:18:11+0700" data-time="1738761491" data-friendly="true">
+                                <span
+                                  class="post-date"
+                                  datetime="2025-02-05T20:18:11+0700"
+                                  data-time="1738761491"
+                                  data-friendly="true"
+                                >
                                   05/02/2025 20:18
                                 </span>
                               </div>
@@ -1306,19 +1427,19 @@
                 <div id="sidebar-top-1">
                   <div id="adsWeb_AdsRight1" class="banner clearfix" data-platform="1" data-position="Web_AdsRight1">
                     <script>
-                      if (typeof Web_AdsRight1 != "undefined") {
-                        window.CMS_BANNER.pushAds(Web_AdsRight1, "adsWeb_AdsRight1");
+                      if (typeof Web_AdsRight1 != 'undefined') {
+                        window.CMS_BANNER.pushAds(Web_AdsRight1, 'adsWeb_AdsRight1')
                       } else {
-                        document.getElementById("adsWeb_AdsRight1").style.display = "none";
+                        document.getElementById('adsWeb_AdsRight1').style.display = 'none'
                       }
                     </script>
                   </div>
                   <div id="adsWeb_AdsRight2" class="banner clearfix" data-platform="1" data-position="Web_AdsRight2">
                     <script>
-                      if (typeof Web_AdsRight2 != "undefined") {
-                        window.CMS_BANNER.pushAds(Web_AdsRight2, "adsWeb_AdsRight2");
+                      if (typeof Web_AdsRight2 != 'undefined') {
+                        window.CMS_BANNER.pushAds(Web_AdsRight2, 'adsWeb_AdsRight2')
                       } else {
-                        document.getElementById("adsWeb_AdsRight2").style.display = "none";
+                        document.getElementById('adsWeb_AdsRight2').style.display = 'none'
                       }
                     </script>
                   </div>
@@ -1348,11 +1469,14 @@
                                 href="https://beta.plo.vn/chi-tiet-du-kien-ten-goi-va-vi-tri-dat-trung-tam-chinh-tri-hanh-chinh-cua-34-tinh-thanh-pho-sau-sap-xep-post844165.html"
                                 title="Chi tiết dự kiến tên gọi và vị trí đặt trung tâm chính trị - hành chính của 34 tỉnh, thành phố sau sắp xếp"
                               >
-                                Chi tiết dự kiến tên gọi và vị trí đặt trung tâm chính trị - hành chính của 34 tỉnh, thành phố sau sắp xếp
+                                Chi tiết dự kiến tên gọi và vị trí đặt trung tâm chính trị - hành chính của 34 tỉnh, thành phố sau sắp
+                                xếp
                               </a>
                             </h2>
                             <div class="post-meta">
-                              <span class="post-date" datetime="2025-04-13T23:19:19+0700" data-time="1744561159" data-friendly="true"> 13/04/2025 23:19 </span>
+                              <span class="post-date" datetime="2025-04-13T23:19:19+0700" data-time="1744561159" data-friendly="true">
+                                13/04/2025 23:19
+                              </span>
                             </div>
                           </div>
                         </div>
@@ -1383,7 +1507,9 @@
                               </a>
                             </h2>
                             <div class="post-meta">
-                              <span class="post-date" datetime="2025-04-13T14:32:50+0700" data-time="1744529570" data-friendly="true"> 13/04/2025 14:32 </span>
+                              <span class="post-date" datetime="2025-04-13T14:32:50+0700" data-time="1744529570" data-friendly="true">
+                                13/04/2025 14:32
+                              </span>
                             </div>
                           </div>
                         </div>
@@ -1415,7 +1541,9 @@
                               </a>
                             </h2>
                             <div class="post-meta">
-                              <span class="post-date" datetime="2025-04-14T09:44:13+0700" data-time="1744598653" data-friendly="true"> 14/04/2025 09:44 </span>
+                              <span class="post-date" datetime="2025-04-14T09:44:13+0700" data-time="1744598653" data-friendly="true">
+                                14/04/2025 09:44
+                              </span>
                             </div>
                           </div>
                         </div>
@@ -1446,7 +1574,9 @@
                               </a>
                             </h2>
                             <div class="post-meta">
-                              <span class="post-date" datetime="2025-04-13T12:17:55+0700" data-time="1744521475" data-friendly="true"> 13/04/2025 12:17 </span>
+                              <span class="post-date" datetime="2025-04-13T12:17:55+0700" data-time="1744521475" data-friendly="true">
+                                13/04/2025 12:17
+                              </span>
                             </div>
                           </div>
                         </div>
@@ -1457,10 +1587,10 @@
                 <div id="sidebar-sticky-1">
                   <div id="adsWeb_AdsRight3" class="banner clearfix" data-platform="1" data-position="Web_AdsRight3">
                     <script>
-                      if (typeof Web_AdsRight3 != "undefined") {
-                        window.CMS_BANNER.pushAds(Web_AdsRight3, "adsWeb_AdsRight3");
+                      if (typeof Web_AdsRight3 != 'undefined') {
+                        window.CMS_BANNER.pushAds(Web_AdsRight3, 'adsWeb_AdsRight3')
                       } else {
-                        document.getElementById("adsWeb_AdsRight3").style.display = "none";
+                        document.getElementById('adsWeb_AdsRight3').style.display = 'none'
                       }
                     </script>
                   </div>
@@ -1505,7 +1635,8 @@
                             href="https://beta.plo.vn/sap-nhap-phuong-xa-tinh-loc-can-bo-phuc-vu-dan-tot-hon-post841662.html"
                             title="Sáp nhập phường, xã: Tinh lọc cán bộ, phục vụ dân tốt hơn"
                           >
-                            Sáp nhập phường, xã: Tinh lọc cán bộ, phục vụ dân tốt hơn<i class="ic-type-img"></i><i class="ic-type-text">LENS</i>
+                            Sáp nhập phường, xã: Tinh lọc cán bộ, phục vụ dân tốt hơn<i class="ic-type-img"></i
+                            ><i class="ic-type-text">LENS</i>
                           </a>
                         </h2>
                       </div>
@@ -1665,15 +1796,19 @@
                           </a>
                         </h2>
                         <div class="post-meta">
-                          <span class="post-author"><a href="https://beta.plo.vn/tac-gia/nguyen-thao-0.html" title="NGUYỄN THẢO">NGUYỄN THẢO</a></span>
+                          <span class="post-author"
+                            ><a href="https://beta.plo.vn/tac-gia/nguyen-thao-0.html" title="NGUYỄN THẢO">NGUYỄN THẢO</a></span
+                          >
 
-                          <span class="post-date" datetime="2025-03-28T05:59:00+0700" data-time="1743116340" data-friendly="true"> 28/03/2025 05:59 </span>
+                          <span class="post-date" datetime="2025-03-28T05:59:00+0700" data-time="1743116340" data-friendly="true">
+                            28/03/2025 05:59
+                          </span>
                         </div>
 
                         <div class="story__shorten">
                           <p>
-                            (PLO)-&nbsp;Để thống nhất với các chủ trương của Trung ương, dự thảo Luật Cán bộ, công chức sửa đổi thống nhất không phân biệt cán
-                            bộ, công chức cấp xã với cán bộ, công chức cấp Trung ương, cấp tỉnh.
+                            (PLO)-&nbsp;Để thống nhất với các chủ trương của Trung ương, dự thảo Luật Cán bộ, công chức sửa đổi thống
+                            nhất không phân biệt cán bộ, công chức cấp xã với cán bộ, công chức cấp Trung ương, cấp tỉnh.
                           </p>
                         </div>
                       </div>
@@ -1702,19 +1837,26 @@
                             href="https://beta.plo.vn/can-mot-nghi-quyet-cua-bo-chinh-tri-ve-doi-moi-tu-duy-xay-dung-va-thi-hanh-phap-luat-post837682.html"
                             title="Cần một nghị quyết của Bộ Chính trị về đổi mới tư duy xây dựng và thi hành pháp luật"
                           >
-                            Cần một nghị quyết của Bộ Chính trị về đổi mới tư duy xây dựng và thi hành pháp luật<i class="ic-type-img"></i>
+                            Cần một nghị quyết của Bộ Chính trị về đổi mới tư duy xây dựng và thi hành pháp luật<i
+                              class="ic-type-img"
+                            ></i>
                           </a>
                         </h2>
                         <div class="post-meta">
-                          <span class="post-author"><a href="https://beta.plo.vn/tac-gia/nghia-nhan-67.html" title="NGHĨA NHÂN">NGHĨA NHÂN</a></span>
+                          <span class="post-author"
+                            ><a href="https://beta.plo.vn/tac-gia/nghia-nhan-67.html" title="NGHĨA NHÂN">NGHĨA NHÂN</a></span
+                          >
 
-                          <span class="post-date" datetime="2025-03-06T15:47:08+0700" data-time="1741250828" data-friendly="true"> 06/03/2025 15:47 </span>
+                          <span class="post-date" datetime="2025-03-06T15:47:08+0700" data-time="1741250828" data-friendly="true">
+                            06/03/2025 15:47
+                          </span>
                         </div>
 
                         <div class="story__shorten">
                           <p>
-                            (PLO)-&nbsp;Bất cập và hạn chế cả trong xây dựng và thi hành pháp luật được đề cập nhiều trong thời gian gần đây nhưng để tạo chuyển
-                            biến thực sự thì cần có một nghị quyết chuyên đề của Bộ Chính trị, thậm chí của BCH Trung ương.
+                            (PLO)-&nbsp;Bất cập và hạn chế cả trong xây dựng và thi hành pháp luật được đề cập nhiều trong thời gian
+                            gần đây nhưng để tạo chuyển biến thực sự thì cần có một nghị quyết chuyên đề của Bộ Chính trị, thậm chí của
+                            BCH Trung ương.
                           </p>
                         </div>
                       </div>
@@ -1755,13 +1897,15 @@
                             ></span
                           >
 
-                          <span class="post-date" datetime="2025-02-06T07:00:00+0700" data-time="1738800000" data-friendly="true"> 06/02/2025 07:00 </span>
+                          <span class="post-date" datetime="2025-02-06T07:00:00+0700" data-time="1738800000" data-friendly="true">
+                            06/02/2025 07:00
+                          </span>
                         </div>
 
                         <div class="story__shorten">
                           <p>
-                            (PLO)-&nbsp;Một khi công cuộc đổi mới là vì dân, vì nước, vì sự nghiệp chung thì các cuộc đổi mới của đất nước, của dân tộc Việt Nam
-                            luôn thành công.
+                            (PLO)-&nbsp;Một khi công cuộc đổi mới là vì dân, vì nước, vì sự nghiệp chung thì các cuộc đổi mới của đất
+                            nước, của dân tộc Việt Nam luôn thành công.
                           </p>
                         </div>
                       </div>
@@ -1790,24 +1934,26 @@
                             href="https://beta.plo.vn/95-nam-dang-dan-dat-dat-nuoc-tien-vao-nhung-ky-nguyen-phat-trien-bai-2-phai-dam-nghi-khac-lam-khac-de-lam-giau-cho-dat-nuoc-post832568.html"
                             title="95 năm Đảng dẫn dắt đất nước tiến vào những kỷ nguyên phát triển- Bài 2: Phải dám nghĩ khác, làm khác để làm giàu cho đất nước"
                           >
-                            95 năm Đảng dẫn dắt đất nước tiến vào những kỷ nguyên phát triển- Bài 2: Phải dám nghĩ khác, làm khác để làm giàu cho đất nước<i
-                              class="ic-type-img"
-                            ></i
-                            ><i class="ic-type-text">LENS</i>
+                            95 năm Đảng dẫn dắt đất nước tiến vào những kỷ nguyên phát triển- Bài 2: Phải dám nghĩ khác, làm khác để
+                            làm giàu cho đất nước<i class="ic-type-img"></i><i class="ic-type-text">LENS</i>
                           </a>
                         </h2>
                         <div class="post-meta">
                           <span class="post-author"
-                            ><a href="https://beta.plo.vn/tac-gia/nghia-nhan-thuc-hien-0.html" title="NGHĨA NHÂN thực hiện">NGHĨA NHÂN thực hiện</a></span
+                            ><a href="https://beta.plo.vn/tac-gia/nghia-nhan-thuc-hien-0.html" title="NGHĨA NHÂN thực hiện"
+                              >NGHĨA NHÂN thực hiện</a
+                            ></span
                           >
 
-                          <span class="post-date" datetime="2025-02-04T06:00:00+0700" data-time="1738623600" data-friendly="true"> 04/02/2025 06:00 </span>
+                          <span class="post-date" datetime="2025-02-04T06:00:00+0700" data-time="1738623600" data-friendly="true">
+                            04/02/2025 06:00
+                          </span>
                         </div>
 
                         <div class="story__shorten">
                           <p>
-                            (PLO)-&nbsp;Mục tiêu đã đề ra, dù là thách thức lớn nhưng với quyết tâm tiến vào kỷ nguyên mới, Việt Nam phải đổi mới, xoay chuyển
-                            tình thế và có những bước đi mạnh mẽ.
+                            (PLO)-&nbsp;Mục tiêu đã đề ra, dù là thách thức lớn nhưng với quyết tâm tiến vào kỷ nguyên mới, Việt Nam
+                            phải đổi mới, xoay chuyển tình thế và có những bước đi mạnh mẽ.
                           </p>
                         </div>
                       </div>
@@ -1849,13 +1995,15 @@
                             ></span
                           >
 
-                          <span class="post-date" datetime="2025-02-04T05:40:00+0700" data-time="1738622400" data-friendly="true"> 04/02/2025 05:40 </span>
+                          <span class="post-date" datetime="2025-02-04T05:40:00+0700" data-time="1738622400" data-friendly="true">
+                            04/02/2025 05:40
+                          </span>
                         </div>
 
                         <div class="story__shorten">
                           <p>
-                            (PLO)-&nbsp;Dưới sự lãnh đạo của Đảng, sau 40 năm đổi mới, đất nước ta đã thay da đổi thịt, đời sống vật chất và tinh thần của nhân
-                            dân ngày càng cao… tạo thế và lực để sẵn sàng bước vào kỷ nguyên vươn mình.
+                            (PLO)-&nbsp;Dưới sự lãnh đạo của Đảng, sau 40 năm đổi mới, đất nước ta đã thay da đổi thịt, đời sống vật
+                            chất và tinh thần của nhân dân ngày càng cao… tạo thế và lực để sẵn sàng bước vào kỷ nguyên vươn mình.
                           </p>
                         </div>
                       </div>
@@ -1894,13 +2042,15 @@
                             ></span
                           >
 
-                          <span class="post-date" datetime="2025-01-20T07:15:56+0700" data-time="1737332156" data-friendly="true"> 20/01/2025 07:15 </span>
+                          <span class="post-date" datetime="2025-01-20T07:15:56+0700" data-time="1737332156" data-friendly="true">
+                            20/01/2025 07:15
+                          </span>
                         </div>
 
                         <div class="story__shorten">
                           <p>
-                            (PLO)-&nbsp;Nhiều ý kiến cho rằng đã đến lúc Việt Nam cần có tiêu chí rõ ràng, cụ thể trong việc thu hút dòng vốn đầu tư trực tiếp
-                            nước ngoài, tức thu hút có chọn lọc.
+                            (PLO)-&nbsp;Nhiều ý kiến cho rằng đã đến lúc Việt Nam cần có tiêu chí rõ ràng, cụ thể trong việc thu hút
+                            dòng vốn đầu tư trực tiếp nước ngoài, tức thu hút có chọn lọc.
                           </p>
                         </div>
                       </div>
@@ -1929,21 +2079,27 @@
                             href="https://beta.plo.vn/nhap-khau-y-tuong-phat-trien-trong-dung-nhan-tai-se-giup-viet-nam-cat-canh-post830877.html"
                             title="Nhập khẩu 'ý tưởng phát triển', trọng dụng nhân tài sẽ giúp Việt Nam cất cánh"
                           >
-                            Nhập khẩu &apos;ý tưởng phát triển&apos;, trọng dụng nhân tài sẽ giúp Việt Nam cất cánh<i class="ic-type-img"></i>
+                            Nhập khẩu &apos;ý tưởng phát triển&apos;, trọng dụng nhân tài sẽ giúp Việt Nam cất cánh<i
+                              class="ic-type-img"
+                            ></i>
                           </a>
                         </h2>
                         <div class="post-meta">
                           <span class="post-author"
-                            ><a href="https://beta.plo.vn/tac-gia/chan-luan-thuc-hien-0.html" title="CHÂN LUẬN thực hiện">CHÂN LUẬN thực hiện</a></span
+                            ><a href="https://beta.plo.vn/tac-gia/chan-luan-thuc-hien-0.html" title="CHÂN LUẬN thực hiện"
+                              >CHÂN LUẬN thực hiện</a
+                            ></span
                           >
 
-                          <span class="post-date" datetime="2025-01-20T06:07:02+0700" data-time="1737328022" data-friendly="true"> 20/01/2025 06:07 </span>
+                          <span class="post-date" datetime="2025-01-20T06:07:02+0700" data-time="1737328022" data-friendly="true">
+                            20/01/2025 06:07
+                          </span>
                         </div>
 
                         <div class="story__shorten">
                           <p>
-                            (PLO)-&nbsp;“Hầu hết những nước bứt phá phát triển đều đã áp dụng phương thức thuê các công ty tư vấn hàng đầu thế giới làm tư vấn,
-                            quy hoạch, thiết kế, phản biện ...” - PGS-TS Võ Đại Lược.
+                            (PLO)-&nbsp;“Hầu hết những nước bứt phá phát triển đều đã áp dụng phương thức thuê các công ty tư vấn hàng
+                            đầu thế giới làm tư vấn, quy hoạch, thiết kế, phản biện ...” - PGS-TS Võ Đại Lược.
                           </p>
                         </div>
                       </div>
@@ -1982,13 +2138,16 @@
                             ></span
                           >
 
-                          <span class="post-date" datetime="2025-01-17T09:00:00+0700" data-time="1737079200" data-friendly="true"> 17/01/2025 09:00 </span>
+                          <span class="post-date" datetime="2025-01-17T09:00:00+0700" data-time="1737079200" data-friendly="true">
+                            17/01/2025 09:00
+                          </span>
                         </div>
 
                         <div class="story__shorten">
                           <p>
-                            (PLO)-&nbsp;Để tránh trở thành “công xưởng giá rẻ” của thế giới, Việt Nam cần những chính sách đột phá, tập trung phát huy nội lực,
-                            nâng cao năng lực cạnh tranh của doanh nghiệp nội địa và thúc đẩy mạnh mẽ tinh thần đổi mới sáng tạo.
+                            (PLO)-&nbsp;Để tránh trở thành “công xưởng giá rẻ” của thế giới, Việt Nam cần những chính sách đột phá, tập
+                            trung phát huy nội lực, nâng cao năng lực cạnh tranh của doanh nghiệp nội địa và thúc đẩy mạnh mẽ tinh thần
+                            đổi mới sáng tạo.
                           </p>
                         </div>
                       </div>
@@ -2086,7 +2245,9 @@
                                   href="https://beta.plo.vn/hlv-amorim-va-doi-truong-bruno-tuc-gian-ve-sai-lam-cua-cac-cau-thu-man-united-post844233.html"
                                   title="HLV Amorim và đội trưởng Bruno tức giận về sai lầm của các cầu thủ Man United"
                                 >
-                                  HLV Amorim và đội trưởng Bruno tức giận về sai lầm của các cầu thủ Man United<i class="ic-type-img"></i>
+                                  HLV Amorim và đội trưởng Bruno tức giận về sai lầm của các cầu thủ Man United<i
+                                    class="ic-type-img"
+                                  ></i>
                                 </a>
                               </h2>
                             </div>
@@ -2186,55 +2347,55 @@
 
       <div id="adsWeb_AdsBottom" class="banner clearfix" data-platform="1" data-position="Web_AdsBottom">
         <script>
-          if (typeof Web_AdsBottom != "undefined") {
-            window.CMS_BANNER.pushAds(Web_AdsBottom, "adsWeb_AdsBottom");
+          if (typeof Web_AdsBottom != 'undefined') {
+            window.CMS_BANNER.pushAds(Web_AdsBottom, 'adsWeb_AdsBottom')
           } else {
-            document.getElementById("adsWeb_AdsBottom").style.display = "none";
+            document.getElementById('adsWeb_AdsBottom').style.display = 'none'
           }
         </script>
       </div>
       <script>
         if (!String.prototype.endsWith) {
           String.prototype.endsWith = function (d) {
-            var c = this.length - d.length;
-            return c >= 0 && this.lastIndexOf(d) === c;
-          };
+            var c = this.length - d.length
+            return c >= 0 && this.lastIndexOf(d) === c
+          }
         }
         if (!String.prototype.startsWith) {
           String.prototype.startsWith = function (c, d) {
-            d = d || 0;
-            return this.indexOf(c, d) === d;
-          };
+            d = d || 0
+            return this.indexOf(c, d) === d
+          }
         }
         function canUseWebP() {
-          var b = document.createElement("canvas");
-          if (!!(b.getContext && b.getContext("2d"))) {
-            return b.toDataURL("image/webp").indexOf("data:image/webp") == 0;
+          var b = document.createElement('canvas')
+          if (!!(b.getContext && b.getContext('2d'))) {
+            return b.toDataURL('image/webp').indexOf('data:image/webp') == 0
           }
-          return false;
+          return false
         }
         function replaceWebPToImage() {
           if (canUseWebP()) {
-            return;
+            return
           }
-          var f = document.getElementsByTagName("img");
+          var f = document.getElementsByTagName('img')
           for (i = 0; i < f.length; i++) {
-            var h = f[i];
-            if (h && h.src.length > 0 && h.src.indexOf("/styles/img") == -1) {
-              var e = h.src;
-              var g = h.dataset.src;
-              if (g && g.length > 0 && (g.endsWith(".webp") || g.indexOf(".webp?") > -1) && e.startsWith("data:image")) {
-                h.setAttribute("data-src", g.replace(".webp", ""));
-                h.setAttribute("src", g.replace(".webp", ""));
+            var h = f[i]
+            if (h && h.src.length > 0 && h.src.indexOf('/styles/img') == -1) {
+              var e = h.src
+              var g = h.dataset.src
+              if (g && g.length > 0 && (g.endsWith('.webp') || g.indexOf('.webp?') > -1) && e.startsWith('data:image')) {
+                h.setAttribute('data-src', g.replace('.webp', ''))
+                h.setAttribute('src', g.replace('.webp', ''))
               } else {
-                if (e.endsWith(".webp") || e.indexOf(".webp?") > -1) {
-                  h.setAttribute("src", e.replace(".webp", ""));
+                if (e.endsWith('.webp') || e.indexOf('.webp?') > -1) {
+                  h.setAttribute('src', e.replace('.webp', ''))
                 }
               }
             }
           }
         }
-        replaceWebPToImage();
+        replaceWebPToImage()
       </script>
 
       <footer id="footer" class="footer">
@@ -2330,20 +2491,20 @@
 
     <div id="adsWeb_AdsBalloon" class="banner clearfix" data-platform="1" data-position="Web_AdsBalloon">
       <script>
-        if (typeof Web_AdsBalloon != "undefined") {
-          window.CMS_BANNER.pushAds(Web_AdsBalloon, "adsWeb_AdsBalloon");
+        if (typeof Web_AdsBalloon != 'undefined') {
+          window.CMS_BANNER.pushAds(Web_AdsBalloon, 'adsWeb_AdsBalloon')
         } else {
-          document.getElementById("adsWeb_AdsBalloon").style.display = "none";
+          document.getElementById('adsWeb_AdsBalloon').style.display = 'none'
         }
       </script>
     </div>
 
     <div id="adsWeb_AdsBottomFull" class="banner clearfix" data-platform="1" data-position="Web_AdsBottomFull">
       <script>
-        if (typeof Web_AdsBottomFull != "undefined") {
-          window.CMS_BANNER.pushAds(Web_AdsBottomFull, "adsWeb_AdsBottomFull");
+        if (typeof Web_AdsBottomFull != 'undefined') {
+          window.CMS_BANNER.pushAds(Web_AdsBottomFull, 'adsWeb_AdsBottomFull')
         } else {
-          document.getElementById("adsWeb_AdsBottomFull").style.display = "none";
+          document.getElementById('adsWeb_AdsBottomFull').style.display = 'none'
         }
       </script>
     </div>
