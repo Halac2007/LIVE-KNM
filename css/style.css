@@ -3,59 +3,256 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
 
 @font-face {
-  font-family: 'Noto Serif';
+  font-family: "Noto Serif";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.eot');
+  src: url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.eot");
   /* IE9 Compat Modes */
-  src: local('Noto Serif'), local('NotoSerif'),
-    url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.eot?#iefix') format('embedded-opentype'),
-    /* IE6-IE8 */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.woff2') format('woff2'),
-    /* Super Modern Browsers */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.woff') format('woff'),
-    /* Modern Browsers */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.ttf') format('truetype'),
-    /* Safari, Android, iOS */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.svg#NotoSerif') format('svg');
+  src: local("Noto Serif"), local("NotoSerif"), url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.svg#NotoSerif") format("svg");
   /* Legacy iOS */
 }
 
+@font-face {
+  font-family: icomoon;
+  src: url(../fonts/icomoon/icomoon.eot?v=1.1);
+  src: url(../fonts/icomoon/icomoon.eot?v=1.1#iefix) format("embedded-opentype"), url(../fonts/icomoon/icomoon.ttf?v=1.1) format("truetype"),
+    url(../fonts/icomoon/icomoon.woff?v=1.1) format("woff"), url(../fonts/icomoon/icomoon.svg?v=1.1#icomoon) format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ic-"],
+[class^="ic-type-"] {
+  font-family: icomoon !important;
+  speak: never;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-arrow-left:before {
+  content: "\e900";
+}
+
+.ic-bell:before {
+  content: "\e901";
+}
+
+.ic-bookmark:before {
+  content: "\e902";
+}
+
+.ic-bookmark-solid:before {
+  content: "\e927";
+}
+
+.ic-bookmark-slash:before {
+  content: "\e928";
+}
+
+.ic-check-circle:before {
+  content: "\e923";
+}
+
+.ic-chevron-down:before {
+  content: "\e91a";
+}
+
+.ic-chevron-left:before {
+  content: "\e904";
+}
+
+.ic-chevron-right:before {
+  content: "\e905";
+}
+
+.ic-chevron-up:before {
+  content: "\e906";
+}
+
+.ic-clock:before {
+  content: "\e921";
+}
+
+.ic-close:before {
+  content: "\e925";
+}
+
+.ic-eye:before {
+  content: "\e91f";
+}
+
+.ic-eye-off:before {
+  content: "\e91e";
+}
+
+.ic-facebook:before {
+  content: "\e907";
+}
+
+.ic-facebook-f:before {
+  content: "\e91b";
+}
+
+.ic-fb:before {
+  content: "\e929";
+}
+
+.ic-globe:before {
+  content: "\e908";
+}
+
+.ic-google:before {
+  content: "\e91c";
+}
+
+.ic-heart:before {
+  content: "\e909";
+}
+
+.ic-home:before {
+  content: "\e90a";
+}
+
+.ic-layers:before {
+  content: "\e90b";
+}
+
+.ic-link:before {
+  content: "\e926";
+}
+
+.ic-lock:before {
+  content: "\e924";
+}
+
+.ic-log-out:before {
+  content: "\e922";
+}
+
+.ic-mail:before {
+  content: "\e90c";
+}
+
+.ic-menu:before {
+  content: "\e90d";
+}
+
+.ic-message-circle:before {
+  content: "\e90e";
+}
+
+.ic-more-horizontal:before {
+  content: "\e90f";
+}
+
+.ic-phone:before {
+  content: "\e910";
+}
+
+.ic-play:before {
+  content: "\e911";
+}
+
+.ic-printer:before {
+  content: "\e912";
+}
+
+.ic-rss:before {
+  content: "\e920";
+}
+
+.ic-search:before {
+  content: "\e913";
+}
+
+.ic-thumbs-up:before {
+  content: "\e914";
+}
+
+.ic-tiktok:before {
+  content: "\e92b";
+}
+
+.ic-twitter:before {
+  content: "\e915";
+}
+
+.ic-user:before {
+  content: "\e916";
+}
+
+.ic-youtube:before {
+  content: "\e918";
+}
+
+.ic-yt:before {
+  content: "\e92c";
+}
+
+.ic-zalo:before {
+  content: "\e919";
+}
+
+.ic-zalo-z:before {
+  content: "\e91d";
+}
+
+.ic-type-image:before,
+.ic-type-img:before {
+  content: "\e903";
+}
+
+.ic-type-video:before {
+  content: "\e917";
+}
 /* noto-serif-italic - vietnamese_latin_latin-ext */
 
 @font-face {
-  font-family: 'Noto Serif';
+  font-family: "Noto Serif";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.eot');
+  src: url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.eot");
   /* IE9 Compat Modes */
-  src: local('Noto Serif Italic'), local('NotoSerif-Italic'),
-    url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.eot?#iefix') format('embedded-opentype'),
-    /* IE6-IE8 */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.woff2') format('woff2'),
-    /* Super Modern Browsers */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.woff') format('woff'),
-    /* Modern Browsers */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.ttf') format('truetype'),
-    /* Safari, Android, iOS */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.svg#NotoSerif') format('svg');
+  src: local("Noto Serif Italic"), local("NotoSerif-Italic"),
+    url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.svg#NotoSerif") format("svg");
   /* Legacy iOS */
 }
 
 /* noto-serif-700 - vietnamese_latin_latin-ext */
 
 @font-face {
-  font-family: 'Noto Serif';
+  font-family: "Noto Serif";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.eot');
+  src: url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.eot");
   /* IE9 Compat Modes */
-  src: local('Noto Serif Bold'), local('NotoSerif-Bold'),
-    url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.eot?#iefix') format('embedded-opentype'),
-    /* IE6-IE8 */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.woff2') format('woff2'),
-    /* Super Modern Browsers */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.woff') format('woff'),
-    /* Modern Browsers */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.ttf') format('truetype'),
-    /* Safari, Android, iOS */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.svg#NotoSerif') format('svg');
+  src: local("Noto Serif Bold"), local("NotoSerif-Bold"), url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.svg#NotoSerif") format("svg");
   /* Legacy iOS */
 }
 
 .vc_video-bg-container.video-bg:before {
-  content: ' ';
+  content: " ";
   position: absolute;
   display: block;
   width: 100%;
@@ -81,7 +278,7 @@ body {
 
 body,
 p {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   line-height: 24px;
   font-size: 16px;
   text-rendering: optimizeLegibility;
@@ -111,7 +308,7 @@ h5,
 h6 {
   color: #1c1c1c;
   font-weight: 700;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
 }
 
 h1 {
@@ -120,8 +317,8 @@ h1 {
 }
 
 h2 {
-  font-size: 22px;
-  line-height: 36px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 h3 {
@@ -206,9 +403,9 @@ section,
   padding-bottom: 0;
 }
 
-.m-top-0 {
+/* .m-top-0 {
   margin-top: 0 !important;
-}
+} */
 
 .m-bottom-0 {
   margin-bottom: 0;
@@ -364,14 +561,14 @@ blockquote {
   margin: 50px 0 40px;
   font-size: 18px;
   line-height: 34px;
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   font-weight: 400;
   text-align: center;
 }
 
 blockquote:before {
   position: absolute;
-  content: '\f10e';
+  content: "\f10e";
   font-family: FontAwesome;
   font-size: 24px;
   padding: 8px 15px;
@@ -453,7 +650,7 @@ blockquote.pull-left {
 
 .list-round li:before {
   font-family: FontAwesome;
-  content: '\f138';
+  content: "\f138";
   margin-right: 10px;
   color: #900;
   font-size: 12px;
@@ -465,7 +662,7 @@ blockquote.pull-left {
 
 ul.list-arrow li:before {
   font-family: FontAwesome;
-  content: '\f105';
+  content: "\f105";
   margin-right: 10px;
   color: #900;
   font-size: 16px;
@@ -473,7 +670,7 @@ ul.list-arrow li:before {
 
 ul.list-check li:before {
   font-family: FontAwesome;
-  content: '\f00c';
+  content: "\f00c";
   margin-right: 10px;
   color: #900;
   font-size: 14px;
@@ -499,7 +696,7 @@ ul.list-check li:before {
   background: #f5f5f5 url(../images/crossword.png);
 }
 
-a[href^='tel'] {
+a[href^="tel"] {
   color: inherit;
   text-decoration: none;
 }
@@ -560,7 +757,7 @@ a[href^='tel'] {
 .block-title > span:after {
   border-color: #900 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
   position: absolute;
-  content: ' ';
+  content: " ";
   width: auto;
   height: auto;
   bottom: -20px;
@@ -574,7 +771,7 @@ a[href^='tel'] {
 
 .post-title {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.5;
   margin: 15px 0 0;
 }
 
@@ -583,10 +780,8 @@ a[href^='tel'] {
 }
 
 .post-title.title-extra-large {
-  font-size: 26px;
-  line-height: 30px;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .post-title.title-large {
@@ -597,7 +792,7 @@ a[href^='tel'] {
 }
 
 .post-title.title-medium {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.4;
   color: #fff;
   max-height: 60px;
@@ -622,7 +817,7 @@ a[href^='tel'] {
 .block-title > a:after {
   border-color: #900 transparent transparent transparent;
   position: absolute;
-  content: ' ';
+  content: " ";
   width: auto;
   height: auto;
   bottom: -20px;
@@ -633,8 +828,8 @@ a[href^='tel'] {
 }
 
 .post-title.title-small {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 1.5;
   margin-top: 15px;
   margin-bottom: 5px;
 }
@@ -655,7 +850,7 @@ a.post-cat {
 }
 
 .post-cat:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   z-index: 0;
@@ -717,7 +912,7 @@ span.post-comment span {
 }
 
 .post-overaly-style:before {
-  content: ' ';
+  content: " ";
   position: absolute;
   display: block;
   width: 100%;
@@ -726,13 +921,7 @@ span.post-comment span {
   bottom: 0;
   left: 0;
   background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    left bottom,
-    color-stop(60%, rgba(0, 0, 0, 0)),
-    color-stop(100%, rgba(0, 0, 0, 0.85))
-  );
+  background: -webkit-gradient(linear, left bottom, left bottom, color-stop(60%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.85)));
   background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
   background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
   background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
@@ -801,13 +990,7 @@ span.post-comment span {
   top: 0;
   left: 0;
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.85) 100%);
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(60%, rgba(0, 0, 0, 0)),
-    color-stop(100%, rgba(0, 0, 0, 0.85))
-  );
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.85)));
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.85) 100%);
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.85) 100%);
   background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.85) 100%);
@@ -815,10 +998,6 @@ span.post-comment span {
 }
 
 /*-- Post Overaly Textcenter --*/
-
-.post-overaly-style.text-center .post-content {
-  padding: 30px 30px 60px;
-}
 
 .post-overaly-style.text-center {
   margin-bottom: 30px;
@@ -839,13 +1018,7 @@ span.post-comment span {
 
 .post-overaly-style.text-center:before {
   background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.85) 100%);
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    left bottom,
-    color-stop(60%, rgba(0, 0, 0, 0)),
-    color-stop(100%, rgba(0, 0, 0, 0.85))
-  );
+  background: -webkit-gradient(linear, left bottom, left bottom, color-stop(60%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.85)));
   background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.85) 100%);
   background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.85) 100%);
   background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.85) 100%);
@@ -897,9 +1070,12 @@ span.post-comment span {
 }
 
 /*-- Post list --*/
+.color-blue .list-post-block {
+  margin-top: 0px !important;
+}
 
 .list-post-block {
-  margin-top: 30px;
+  margin-top: 30px !important;
 }
 
 .list-post {
@@ -963,6 +1139,10 @@ span.post-comment span {
 }
 
 /*-- Color Red --*/
+
+.block-title > a {
+  padding: 10px 15px !important;
+}
 
 .color-red .block-title {
   border-bottom: 2px solid #900;
@@ -1318,11 +1498,10 @@ span.post-comment span {
 }
 
 /*-- Logo --*/
-
-.logo {
-  padding: 28px 0;
+.header .row {
+  display: flex;
+  align-items: center;
 }
-
 /* header right */
 
 .header-right {
@@ -1345,7 +1524,7 @@ ul.top-info-box > li.nav-search {
 
 ul.top-info-box > li.nav-search:before {
   position: absolute;
-  content: '';
+  content: "";
   background: #ddd;
   left: 0;
   width: 1px;
@@ -1420,9 +1599,9 @@ ul.navbar-nav > li {
 
 ul.navbar-nav > li > a {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 10px;
   line-height: 50px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   color: #1c1c1c;
@@ -1442,7 +1621,7 @@ ul.navbar-nav > li.active > a:before {
 }
 
 ul.navbar-nav > li > a:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -1492,7 +1671,7 @@ ul.navbar-nav > li.mega-dropdown {
 
 .dropdown-submenu > a:after {
   display: block;
-  content: '\f105';
+  content: "\f105";
   font-family: FontAwesome;
   float: right;
   margin-top: 0;
@@ -1661,7 +1840,7 @@ ul.navbar-nav > li.mega-dropdown {
   display: inline-block;
   position: relative;
   cursor: pointer;
-  top: 12px;
+  top: 22px;
   right: 10px;
 }
 
@@ -1690,8 +1869,8 @@ ul.navbar-nav > li.mega-dropdown {
 .search-block .search-close {
   color: #525252;
   position: absolute;
-  top: -43px;
-  right: 4px;
+  top: 12px;
+  right: -1px;
   font-size: 32px;
   cursor: pointer;
   background: #fff;
@@ -1861,7 +2040,7 @@ ul.navbar-nav > li.mega-dropdown {
   background-repeat: no-repeat;
 }
 .featured-slider .item:before {
-  content: ' ';
+  content: " ";
   position: absolute;
   display: block;
   width: 100%;
@@ -1870,13 +2049,7 @@ ul.navbar-nav > li.mega-dropdown {
   bottom: 0;
   left: 0;
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(60%, rgba(0, 0, 0, 0)),
-    color-stop(100%, rgba(0, 0, 0, 0.85))
-  );
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.85)));
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
   background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
@@ -1884,7 +2057,7 @@ ul.navbar-nav > li.mega-dropdown {
 }
 
 .post-content {
-  padding: 30px;
+  padding: 22px;
   z-index: 1;
   position: relative;
 }
@@ -1932,6 +2105,7 @@ ul.navbar-nav > li.mega-dropdown {
 .featured-post .post-date,
 .featured-post .post-title a {
   color: #fff;
+  display: none;
 }
 
 /* Featured slider content bottom */
@@ -1943,13 +2117,7 @@ ul.navbar-nav > li.mega-dropdown {
 
 .featured-slider.content-bottom .item:before {
   background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    left bottom,
-    color-stop(60%, rgba(0, 0, 0, 0)),
-    color-stop(100%, rgba(0, 0, 0, 0.85))
-  );
+  background: -webkit-gradient(linear, left bottom, left bottom, color-stop(60%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.85)));
   background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
   background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
   background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
@@ -2144,7 +2312,7 @@ ul.navbar-nav > li.mega-dropdown {
 
 .featured-tab .nav-tabs > li.active > a:after {
   position: absolute;
-  content: ' ';
+  content: " ";
   width: auto;
   height: auto;
   bottom: -14px;
@@ -2193,8 +2361,8 @@ ul.navbar-nav > li.mega-dropdown {
 }
 
 .video-tab .post-title {
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 18px !important;
+  line-height: 1.5;
   font-weight: normal;
 }
 
@@ -2337,11 +2505,11 @@ ul.navbar-nav > li.mega-dropdown {
 }
 
 .twitter-widget ul li:after {
-  content: '\f099';
+  content: "\f099";
   position: absolute;
   top: 0;
   left: 0;
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   color: #a3a3a3;
 
   font-size: 16px;
@@ -2505,7 +2673,7 @@ ul.navbar-nav > li.mega-dropdown {
 }
 
 .breadcrumb > li + li:before {
-  content: '\f105';
+  content: "\f105";
   font-family: FontAwesome;
   padding: 0 8px;
   color: #777;
@@ -2610,7 +2778,7 @@ ul.navbar-nav > li.mega-dropdown {
 ================================================== */
 
 .single-post .post-title {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   letter-spacing: -1px;
   font-size: 30px;
   line-height: 40px;
@@ -2622,13 +2790,13 @@ ul.navbar-nav > li.mega-dropdown {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 15px;
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   font-weight: 400;
 }
 .entry-content .sapo {
   font-size: 18px;
   line-height: 1.4;
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 
 .post-content-area {
@@ -2651,7 +2819,7 @@ ul.navbar-nav > li.mega-dropdown {
 .entry-content h1,
 .entry-content h2,
 .entry-content h3 {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 
 /* Post tags */
@@ -2960,6 +3128,9 @@ ul.navbar-nav > li.mega-dropdown {
   border-bottom: 0;
 }
 
+.sidebar .post-meta {
+  display: none;
+}
 /* Newsletter */
 
 .ts-newsletter {
@@ -3100,7 +3271,7 @@ label {
 }
 
 .boxed-layout::before {
-  content: ''; /* Tạo pseudo-element */
+  content: ""; /* Tạo pseudo-element */
   position: absolute; /* Đặt nó dưới nền */
   top: 0;
   left: 0;
@@ -3195,16 +3366,16 @@ label {
 }
 
 .breadcrumb > li + li:before {
-  content: '\f105'; /* Mã Unicode cho mũi tên phải ">" */
-  font-family: 'Font Awesome 5 Free'; /* Đảm bảo dùng đúng font-family */
+  content: "\f105"; /* Mã Unicode cho mũi tên phải ">" */
+  font-family: "Font Awesome 5 Free"; /* Đảm bảo dùng đúng font-family */
   padding: 0 8px;
   color: #777;
   font-weight: 900; /* Đảm bảo font được hiển thị đúng, đặc biệt là khi sử dụng biểu tượng từ font-weight */
 }
 
 blockquote:before {
-  content: '\f10d'; /* Mã Unicode của biểu tượng Font Awesome */
-  font-family: 'Font Awesome 5 Free'; /* Đảm bảo dùng đúng font-family */
+  content: "\f10d"; /* Mã Unicode của biểu tượng Font Awesome */
+  font-family: "Font Awesome 5 Free"; /* Đảm bảo dùng đúng font-family */
   font-weight: 900; /* Đảm bảo sử dụng trọng số font chính xác */
   padding-right: 10px;
   color: #fff;
@@ -3239,8 +3410,8 @@ blockquote:before {
 }
 
 .fa-angle-up:before {
-  content: '\f106';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f106";
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
 
@@ -3419,6 +3590,7 @@ blockquote:before {
 
 .zce-content-body > * {
   margin-top: 16px !important;
+  font-family: "Noto Serif", serif !important;
 }
 
 .zce-content-body > :first-child {
@@ -3444,6 +3616,9 @@ blockquote:before {
 
 .zce-content-body figure figcaption {
   margin: 8px auto 0;
+}
+.zce-content-body em {
+  font-size: 18px;
 }
 
 .zce-content-body .notebox {
@@ -3518,7 +3693,7 @@ blockquote:before {
 }
 
 .zce-content-body .related-topic .story__heading a::before {
-  content: '•';
+  content: "•";
   display: inline-block;
   font-size: 14px;
   position: absolute;
@@ -3801,7 +3976,7 @@ blockquote:before {
 
 .zce-content-body blockquote .author::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 30px;
   height: 1px;
   background: rgba(0, 0, 0, 0.3);
@@ -3840,7 +4015,7 @@ blockquote:before {
 }
 
 .zce-content-body .related-topic .story:after {
-  content: '';
+  content: "";
   clear: both;
   display: table;
 }
@@ -4187,4 +4362,155 @@ body.modal-open {
   padding: 0px 4px;
   margin: 0px 5px;
   border-radius: 2px;
+}
+
+.article__comment .filter-comment {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 20px;
+  background: var(--gray-ee);
+  margin-top: 30px;
+  position: relative;
+}
+
+.article__comment .filter-comment .total-comment {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+.article__comment .filter-comment .wrap-select {
+  position: relative;
+}
+
+.article__comment .filter-comment .wrap-select label {
+  color: #343a40;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.article__comment .filter-comment .wrap-select select {
+  color: #555;
+  outline: 0;
+  padding: 0 10px;
+  cursor: pointer;
+  width: 200px;
+  height: 35px;
+  background: #fff;
+  position: relative;
+  border-color: rgb(0 0 0 / 10%);
+}
+
+.article__comment .list-comment {
+  margin-top: 24px;
+}
+
+.article__comment .wrap-outer {
+  padding-top: 20px;
+  margin-top: 16px;
+  border-top: 1px solid rgb(0 0 0 / 10%);
+}
+
+.article__comment .rank-1:first-child {
+  border-top: 0;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.article__comment .rank-1 {
+  display: flex;
+  border-top: 1px solid rgb(0 0 0 / 10%);
+  padding-top: 28px;
+  margin-top: 16px;
+}
+
+.article__comment .list-comment .avatar {
+  width: 30px;
+  min-width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 15px;
+  background: #e5e5e5 url(https://static.plo.vn/v4/web/styles/img/no-ava.png) 0 0 / 30px no-repeat;
+  margin-top: -6px;
+  position: relative;
+}
+
+.article__comment .list-comment .avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.article__comment .list-comment .content {
+  color: #555;
+  margin-left: 16px;
+  width: 100%;
+}
+
+.article__comment .list-comment .content .name {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+.article__comment .list-comment .content .text {
+  margin-bottom: 8px;
+}
+
+.article__comment .list-comment .content .action {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article__comment .list-comment .content .action .like {
+  margin-right: 16px;
+}
+
+.article__comment .list-comment .content .action a {
+  font-size: 13px;
+  color: #888;
+}
+
+.article__comment .list-comment .content .action .like:before {
+  font-family: icomoon;
+  content: "\e914";
+  font-size: 14px;
+  margin-right: 3px;
+}
+
+.article__comment .list-comment .content .action .like .count {
+  margin-right: 3px;
+}
+
+.article__comment .list-comment .content .action a {
+  font-size: 13px;
+  color: #888;
+}
+
+.article__comment .wrap-outer {
+  padding-top: 20px;
+  margin-top: 16px;
+  border-top: 1px solid rgb(0 0 0 / 10%);
+}
+
+.article__comment .rank-1:first-child {
+  border-top: 0;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.latest-news-slide h2 a {
+  font-size: 15px !important;
+}
+
+@media (max-width: 479px) {
+  .header .row {
+    display: flex;
+    flex-direction: column;
+  }
 }

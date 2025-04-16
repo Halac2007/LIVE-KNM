@@ -154,7 +154,7 @@
 
   ul.navbar-nav > li:hover > a:after,
   ul.navbar-nav > li.active > a:after {
-    content: '';
+    content: "";
   }
 
   ul.navbar-nav > li > a:before {
@@ -347,7 +347,7 @@
 
   ul.navbar-nav > li:hover > a:after,
   ul.navbar-nav > li.active > a:after {
-    content: '';
+    content: "";
   }
 
   ul.navbar-nav > li > a:before {
@@ -484,7 +484,7 @@
 
   .post-title {
     font-size: 18px;
-    line-height: 26px;
+    line-height: 1.5;
   }
 
   /* Block */
@@ -576,6 +576,10 @@
   .category-style2 .post-thumb {
     margin-bottom: 20px;
   }
+  .header .row {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* Extra Small Devices, Phones */
@@ -633,6 +637,7 @@
 
   .post-block-style.post-float-half .post-thumb {
     margin-right: 0px;
+    margin-bottom: 5px;
   }
   .social-icon {
     text-align: center;
