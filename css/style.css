@@ -799,7 +799,7 @@ a[href^="tel"] {
   font-size: 18px;
   line-height: 1.4;
   color: #fff;
-  max-height: 60px;
+  max-height: 250px;
 }
 
 .post-title.title-medium a {
@@ -875,7 +875,6 @@ a.post-cat {
   display: inline-block;
   max-width: 50ch;
   white-space: nowrap;
-  overflow: hidden;
   text-overflow: ellipsis;
 }
 .post-meta span {
@@ -1066,9 +1065,7 @@ span.post-comment span {
 
 .post-block-style .post-content .post-meta {
   margin: 3px 0;
-}
-
-.post-block-style.content-right {
+  display: none;
 }
 
 /*-- Review box --*/
@@ -3643,7 +3640,6 @@ blockquote:before {
 .zce-content-body em,
 .zce-content-body i {
   font-size: 18px !important;
-  font-family: "Noto Serif", serif !important;
 }
 
 .zce-content-body .notebox {
@@ -4214,6 +4210,13 @@ blockquote:before {
   font-size: 14px !important;
 }
 
+.article__sub-title {
+  font-size: 14px !important;
+  color: #900;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
 /*-------popup------------*/
 
 .modal-backdrop {
