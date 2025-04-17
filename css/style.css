@@ -3,37 +3,35 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
 
 @font-face {
-  font-family: 'Noto Serif';
+  font-family: "Noto Serif";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.eot');
+  src: url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.eot");
   /* IE9 Compat Modes */
-  src: local('Noto Serif'), local('NotoSerif'),
-    url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.eot?#iefix') format('embedded-opentype'),
-    /* IE6-IE8 */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.woff2') format('woff2'),
-    /* Super Modern Browsers */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.woff') format('woff'),
-    /* Modern Browsers */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.ttf') format('truetype'),
-    /* Safari, Android, iOS */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.svg#NotoSerif') format('svg');
+  src: local("Noto Serif"), local("NotoSerif"), url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-regular.svg#NotoSerif") format("svg");
   /* Legacy iOS */
 }
 @font-face {
-  font-family: 'Font Awesome 5 Free';
-  src: url('../fonts/fa-solid-900.woff2?v=1.1') format('woff2');
+  font-family: "Font Awesome 5 Free";
+  src: url("../fonts/fa-solid-900.woff2?v=1.1") format("woff2");
 }
 @font-face {
   font-family: icomoon;
   src: url(../fonts/icomoon/icomoon.eot?v=1.1);
-  src: url(../fonts/icomoon/icomoon.eot?v=1.1#iefix) format('embedded-opentype'),
-    url(../fonts/icomoon/icomoon.ttf?v=1.1) format('truetype'), url(../fonts/icomoon/icomoon.woff?v=1.1) format('woff'),
-    url(../fonts/icomoon/icomoon.svg?v=1.1#icomoon) format('svg');
+  src: url(../fonts/icomoon/icomoon.eot?v=1.1#iefix) format("embedded-opentype"), url(../fonts/icomoon/icomoon.ttf?v=1.1) format("truetype"),
+    url(../fonts/icomoon/icomoon.woff?v=1.1) format("woff"), url(../fonts/icomoon/icomoon.svg?v=1.1#icomoon) format("svg");
   font-weight: 400;
   font-style: normal;
   font-display: block;
 }
 
-[class^='ic-'],
-[class^='ic-type-'] {
+[class^="ic-"],
+[class^="ic-type-"] {
   font-family: icomoon !important;
   speak: never;
   font-style: normal;
@@ -46,220 +44,219 @@
 }
 
 .ic-arrow-left:before {
-  content: '\e900';
+  content: "\e900";
 }
 
 .ic-bell:before {
-  content: '\e901';
+  content: "\e901";
 }
 
 .ic-bookmark:before {
-  content: '\e902';
+  content: "\e902";
 }
 
 .ic-bookmark-solid:before {
-  content: '\e927';
+  content: "\e927";
 }
 
 .ic-bookmark-slash:before {
-  content: '\e928';
+  content: "\e928";
 }
 
 .ic-check-circle:before {
-  content: '\e923';
+  content: "\e923";
 }
 
 .ic-chevron-down:before {
-  content: '\e91a';
+  content: "\e91a";
 }
 
 .ic-chevron-left:before {
-  content: '\e904';
+  content: "\e904";
 }
 
 .ic-chevron-right:before {
-  content: '\e905';
+  content: "\e905";
 }
 
 .ic-chevron-up:before {
-  content: '\e906';
+  content: "\e906";
 }
 
 .ic-clock:before {
-  content: '\e921';
+  content: "\e921";
 }
 
 .ic-close:before {
-  content: '\e925';
+  content: "\e925";
 }
 
 .ic-eye:before {
-  content: '\e91f';
+  content: "\e91f";
 }
 
 .ic-eye-off:before {
-  content: '\e91e';
+  content: "\e91e";
 }
 
 .ic-facebook:before {
-  content: '\e907';
+  content: "\e907";
 }
 
 .ic-facebook-f:before {
-  content: '\e91b';
+  content: "\e91b";
 }
 
 .ic-fb:before {
-  content: '\e929';
+  content: "\e929";
 }
 
 .ic-globe:before {
-  content: '\e908';
+  content: "\e908";
 }
 
 .ic-google:before {
-  content: '\e91c';
+  content: "\e91c";
 }
 
 .ic-heart:before {
-  content: '\e909';
+  content: "\e909";
 }
 
 .ic-home:before {
-  content: '\e90a';
+  content: "\e90a";
 }
 
 .ic-layers:before {
-  content: '\e90b';
+  content: "\e90b";
 }
 
 .ic-link:before {
-  content: '\e926';
+  content: "\e926";
 }
 
 .ic-lock:before {
-  content: '\e924';
+  content: "\e924";
 }
 
 .ic-log-out:before {
-  content: '\e922';
+  content: "\e922";
 }
 
 .ic-mail:before {
-  content: '\e90c';
+  content: "\e90c";
 }
 
 .ic-menu:before {
-  content: '\e90d';
+  content: "\e90d";
 }
 
 .ic-message-circle:before {
-  content: '\e90e';
+  content: "\e90e";
 }
 
 .ic-more-horizontal:before {
-  content: '\e90f';
+  content: "\e90f";
 }
 
 .ic-phone:before {
-  content: '\e910';
+  content: "\e910";
 }
 
 .ic-play:before {
-  content: '\e911';
+  content: "\e911";
 }
 
 .ic-printer:before {
-  content: '\e912';
+  content: "\e912";
 }
 
 .ic-rss:before {
-  content: '\e920';
+  content: "\e920";
 }
 
 .ic-search:before {
-  content: '\e913';
+  content: "\e913";
 }
 
 .ic-thumbs-up:before {
-  content: '\e914';
+  content: "\e914";
 }
 
 .ic-tiktok:before {
-  content: '\e92b';
+  content: "\e92b";
 }
 
 .ic-twitter:before {
-  content: '\e915';
+  content: "\e915";
 }
 
 .ic-user:before {
-  content: '\e916';
+  content: "\e916";
 }
 
 .ic-youtube:before {
-  content: '\e918';
+  content: "\e918";
 }
 
 .ic-yt:before {
-  content: '\e92c';
+  content: "\e92c";
 }
 
 .ic-zalo:before {
-  content: '\e919';
+  content: "\e919";
 }
 
 .ic-zalo-z:before {
-  content: '\e91d';
+  content: "\e91d";
 }
 
 .ic-type-image:before,
 .ic-type-img:before {
-  content: '\e903';
+  content: "\e903";
 }
 
 .ic-type-video:before {
-  content: '\e917';
+  content: "\e917";
 }
 
 /* noto-serif-italic - vietnamese_latin_latin-ext */
 
 @font-face {
-  font-family: 'Noto Serif';
+  font-family: "Noto Serif";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.eot');
+  src: url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.eot");
   /* IE9 Compat Modes */
-  src: local('Noto Serif Italic'), local('NotoSerif-Italic'),
-    url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.eot?#iefix') format('embedded-opentype'),
-    /* IE6-IE8 */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.woff2') format('woff2'),
-    /* Super Modern Browsers */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.woff') format('woff'),
-    /* Modern Browsers */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.ttf') format('truetype'),
-    /* Safari, Android, iOS */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.svg#NotoSerif') format('svg');
+  src: local("Noto Serif Italic"), local("NotoSerif-Italic"),
+    url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-italic.svg#NotoSerif") format("svg");
   /* Legacy iOS */
 }
 
 /* noto-serif-700 - vietnamese_latin_latin-ext */
 
 @font-face {
-  font-family: 'Noto Serif';
+  font-family: "Noto Serif";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.eot');
+  src: url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.eot");
   /* IE9 Compat Modes */
-  src: local('Noto Serif Bold'), local('NotoSerif-Bold'),
-    url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.eot?#iefix') format('embedded-opentype'),
-    /* IE6-IE8 */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.woff2') format('woff2'),
-    /* Super Modern Browsers */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.woff') format('woff'),
-    /* Modern Browsers */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.ttf') format('truetype'),
-    /* Safari, Android, iOS */ url('../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.svg#NotoSerif') format('svg');
+  src: local("Noto Serif Bold"), local("NotoSerif-Bold"), url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.ttf") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/noto-serif-v4-vietnamese_latin_latin-ext-700.svg#NotoSerif") format("svg");
   /* Legacy iOS */
 }
 
 .vc_video-bg-container.video-bg:before {
-  content: ' ';
+  content: " ";
   position: absolute;
   display: block;
   width: 100%;
@@ -285,7 +282,7 @@ body {
 
 body,
 p {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   line-height: 24px;
   font-size: 16px;
   text-rendering: optimizeLegibility;
@@ -315,7 +312,7 @@ h5,
 h6 {
   color: #1c1c1c;
   font-weight: 700;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
 }
 
 h1 {
@@ -568,14 +565,14 @@ blockquote {
   margin: 50px 0 40px;
   font-size: 18px;
   line-height: 34px;
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   font-weight: 400;
   text-align: center;
 }
 
 blockquote:before {
   position: absolute;
-  content: '\f10e';
+  content: "\f10e";
   font-family: FontAwesome;
   font-size: 24px;
   padding: 8px 15px;
@@ -657,7 +654,7 @@ blockquote.pull-left {
 
 .list-round li:before {
   font-family: FontAwesome;
-  content: '\f138';
+  content: "\f138";
   margin-right: 10px;
   color: #900;
   font-size: 12px;
@@ -669,7 +666,7 @@ blockquote.pull-left {
 
 ul.list-arrow li:before {
   font-family: FontAwesome;
-  content: '\f105';
+  content: "\f105";
   margin-right: 10px;
   color: #900;
   font-size: 16px;
@@ -677,7 +674,7 @@ ul.list-arrow li:before {
 
 ul.list-check li:before {
   font-family: FontAwesome;
-  content: '\f00c';
+  content: "\f00c";
   margin-right: 10px;
   color: #900;
   font-size: 14px;
@@ -703,7 +700,7 @@ ul.list-check li:before {
   background: #f5f5f5 url(../images/crossword.png);
 }
 
-a[href^='tel'] {
+a[href^="tel"] {
   color: inherit;
   text-decoration: none;
 }
@@ -764,7 +761,7 @@ a[href^='tel'] {
 .block-title > span:after {
   border-color: #900 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
   position: absolute;
-  content: ' ';
+  content: " ";
   width: auto;
   height: auto;
   bottom: -20px;
@@ -824,7 +821,7 @@ a[href^='tel'] {
 .block-title > a:after {
   border-color: #900 transparent transparent transparent;
   position: absolute;
-  content: ' ';
+  content: " ";
   width: auto;
   height: auto;
   bottom: -18px;
@@ -857,7 +854,7 @@ a.post-cat {
 }
 
 .post-cat:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   z-index: 0;
@@ -919,7 +916,7 @@ span.post-comment span {
 }
 
 .post-overaly-style:before {
-  content: ' ';
+  content: " ";
   position: absolute;
   display: block;
   width: 100%;
@@ -928,13 +925,7 @@ span.post-comment span {
   bottom: 0;
   left: 0;
   background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    left bottom,
-    color-stop(60%, rgba(0, 0, 0, 0)),
-    color-stop(100%, rgba(0, 0, 0, 0.85))
-  );
+  background: -webkit-gradient(linear, left bottom, left bottom, color-stop(60%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.85)));
   background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
   background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
   background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
@@ -948,9 +939,18 @@ span.post-comment span {
 .post-overaly-style .post-content {
   position: absolute;
   bottom: 0;
-  padding: 25px;
+  padding: 5px;
 }
 
+.post-overaly-style .post-content .post-title {
+  font-size: 14px !important;
+}
+.post-block-style.post-float .post-title i {
+  padding-left: 4px !important;
+}
+.post-overaly-style .post-title i {
+  padding-left: 4px !important;
+}
 .post-overaly-style .post-title a {
   color: #fff;
 }
@@ -1003,13 +1003,7 @@ span.post-comment span {
   top: 0;
   left: 0;
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.85) 100%);
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(60%, rgba(0, 0, 0, 0)),
-    color-stop(100%, rgba(0, 0, 0, 0.85))
-  );
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.85)));
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.85) 100%);
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.85) 100%);
   background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.85) 100%);
@@ -1037,13 +1031,7 @@ span.post-comment span {
 
 .post-overaly-style.text-center:before {
   background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.85) 100%);
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    left bottom,
-    color-stop(60%, rgba(0, 0, 0, 0)),
-    color-stop(100%, rgba(0, 0, 0, 0.85))
-  );
+  background: -webkit-gradient(linear, left bottom, left bottom, color-stop(60%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.85)));
   background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.85) 100%);
   background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.85) 100%);
   background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.85) 100%);
@@ -1549,7 +1537,7 @@ ul.top-info-box > li.nav-search {
 
 ul.top-info-box > li.nav-search:before {
   position: absolute;
-  content: '';
+  content: "";
   background: #ddd;
   left: 0;
   width: 1px;
@@ -1646,7 +1634,7 @@ ul.navbar-nav > li.active > a:before {
 }
 
 ul.navbar-nav > li > a:before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -1696,7 +1684,7 @@ ul.navbar-nav > li.mega-dropdown {
 
 .dropdown-submenu > a:after {
   display: block;
-  content: '\f105';
+  content: "\f105";
   font-family: FontAwesome;
   float: right;
   margin-top: 0;
@@ -2065,7 +2053,7 @@ ul.navbar-nav > li.mega-dropdown {
   background-repeat: no-repeat;
 }
 .featured-slider .item:before {
-  content: ' ';
+  content: " ";
   position: absolute;
   display: block;
   width: 100%;
@@ -2074,13 +2062,7 @@ ul.navbar-nav > li.mega-dropdown {
   bottom: 0;
   left: 0;
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(60%, rgba(0, 0, 0, 0)),
-    color-stop(100%, rgba(0, 0, 0, 0.85))
-  );
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.85)));
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
   background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
   background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
@@ -2148,13 +2130,7 @@ ul.navbar-nav > li.mega-dropdown {
 
 .featured-slider.content-bottom .item:before {
   background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
-  background: -webkit-gradient(
-    linear,
-    left bottom,
-    left bottom,
-    color-stop(60%, rgba(0, 0, 0, 0)),
-    color-stop(100%, rgba(0, 0, 0, 0.85))
-  );
+  background: -webkit-gradient(linear, left bottom, left bottom, color-stop(60%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.85)));
   background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
   background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
   background: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.85) 100%);
@@ -2349,7 +2325,7 @@ ul.navbar-nav > li.mega-dropdown {
 
 .featured-tab .nav-tabs > li.active > a:after {
   position: absolute;
-  content: ' ';
+  content: " ";
   width: auto;
   height: auto;
   bottom: -14px;
@@ -2542,11 +2518,11 @@ ul.navbar-nav > li.mega-dropdown {
 }
 
 .twitter-widget ul li:after {
-  content: '\f099';
+  content: "\f099";
   position: absolute;
   top: 0;
   left: 0;
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   color: #a3a3a3;
 
   font-size: 16px;
@@ -2710,7 +2686,7 @@ ul.navbar-nav > li.mega-dropdown {
 }
 
 .breadcrumb > li + li:before {
-  content: '\f105';
+  content: "\f105";
   font-family: FontAwesome;
   padding: 0 8px;
   color: #777;
@@ -2815,7 +2791,7 @@ ul.navbar-nav > li.mega-dropdown {
 ================================================== */
 
 .single-post .post-title {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   letter-spacing: -1px;
   font-size: 30px;
   line-height: 40px;
@@ -2827,13 +2803,13 @@ ul.navbar-nav > li.mega-dropdown {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 15px;
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
   font-weight: 400;
 }
 .entry-content .sapo {
   font-size: 18px;
   line-height: 1.5;
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 
 .post-content-area {
@@ -2856,7 +2832,7 @@ ul.navbar-nav > li.mega-dropdown {
 .entry-content h1,
 .entry-content h2,
 .entry-content h3 {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 
 /* Post tags */
@@ -3308,7 +3284,7 @@ label {
 }
 
 .boxed-layout::before {
-  content: ''; /* Tạo pseudo-element */
+  content: ""; /* Tạo pseudo-element */
   position: absolute; /* Đặt nó dưới nền */
   top: 0;
   left: 0;
@@ -3403,16 +3379,16 @@ label {
 }
 
 .breadcrumb > li + li:before {
-  content: '\f105'; /* Mã Unicode cho mũi tên phải ">" */
-  font-family: 'Font Awesome 5 Free'; /* Đảm bảo dùng đúng font-family */
+  content: "\f105"; /* Mã Unicode cho mũi tên phải ">" */
+  font-family: "Font Awesome 5 Free"; /* Đảm bảo dùng đúng font-family */
   padding: 0 8px;
   color: #777;
   font-weight: 900; /* Đảm bảo font được hiển thị đúng, đặc biệt là khi sử dụng biểu tượng từ font-weight */
 }
 
 blockquote:before {
-  content: '\f10d'; /* Mã Unicode của biểu tượng Font Awesome */
-  font-family: 'Font Awesome 5 Free'; /* Đảm bảo dùng đúng font-family */
+  content: "\f10d"; /* Mã Unicode của biểu tượng Font Awesome */
+  font-family: "Font Awesome 5 Free"; /* Đảm bảo dùng đúng font-family */
   font-weight: 900; /* Đảm bảo sử dụng trọng số font chính xác */
   padding-right: 10px;
   color: #fff;
@@ -3447,8 +3423,8 @@ blockquote:before {
 }
 
 .fa-angle-up:before {
-  content: '\f106';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f106";
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
 
@@ -3627,7 +3603,7 @@ blockquote:before {
 
 .zce-content-body > * {
   margin-top: 16px !important;
-  font-family: 'Noto Serif', serif !important;
+  font-family: "Noto Serif", serif !important;
 }
 
 .zce-content-body > :first-child {
@@ -3657,7 +3633,7 @@ blockquote:before {
 .zce-content-body em,
 .zce-content-body i {
   font-size: 18px !important;
-  font-family: 'Noto Serif', serif !important;
+  font-family: "Noto Serif", serif !important;
 }
 
 .zce-content-body .notebox {
@@ -3667,7 +3643,7 @@ blockquote:before {
 }
 .zce-content-body figcaption {
   font-size: 15px !important;
-  font-family: 'Noto Serif', serif !important;
+  font-family: "Noto Serif", serif !important;
   line-height: 1.5;
   color: #555;
   font-style: italic;
@@ -3733,7 +3709,7 @@ blockquote:before {
 }
 
 .zce-content-body .related-topic .story__heading a::before {
-  content: '•';
+  content: "•";
   display: inline-block;
   font-size: 14px;
   position: absolute;
@@ -4021,7 +3997,7 @@ blockquote:before {
 
 .zce-content-body blockquote .author::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 30px;
   height: 1px;
   background: rgba(0, 0, 0, 0.3);
@@ -4060,7 +4036,7 @@ blockquote:before {
 }
 
 .zce-content-body .related-topic .story:after {
-  content: '';
+  content: "";
   clear: both;
   display: table;
 }
@@ -4523,7 +4499,7 @@ body.modal-open {
 
 .article__comment .list-comment .content .action .like:before {
   font-family: icomoon;
-  content: '\e914';
+  content: "\e914";
   font-size: 14px;
   margin-right: 3px;
 }
@@ -4570,35 +4546,35 @@ body.modal-open {
 }
 
 .fa-search {
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
 .fa-search:before {
-  content: '\f002';
-  font-family: 'Font Awesome 5 Free';
+  content: "\f002";
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
 
 .fa-facebook:before {
-  content: '\f09a';
-  font-family: 'Font Awesome 5 Brands';
+  content: "\f09a";
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
 .fa-twitter:before {
-  content: '\f099';
-  font-family: 'Font Awesome 5 Brands';
+  content: "\f099";
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
 .fa-google-plus:before {
-  content: '\f2b3';
-  font-family: 'Font Awesome 5 Brands';
+  content: "\f2b3";
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
 
 .fa-pinterest:before {
-  content: '\f0d2';
-  font-family: 'Font Awesome 5 Brands';
+  content: "\f0d2";
+  font-family: "Font Awesome 5 Brands";
   font-weight: 400;
 }
