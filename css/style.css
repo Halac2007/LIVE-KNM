@@ -316,7 +316,7 @@ h6 {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 24px;
   line-height: 1.5;
 }
 
@@ -784,7 +784,7 @@ a[href^="tel"] {
 }
 
 .post-title.title-extra-large {
-  font-size: 18px;
+  font-size: 26px;
   line-height: 1.5;
 }
 
@@ -939,7 +939,7 @@ span.post-comment span {
 .post-overaly-style .post-content {
   position: absolute;
   bottom: 0;
-  padding: 5px;
+  padding: 4px 10px;
 }
 
 .post-overaly-style .post-content .post-title {
@@ -2358,6 +2358,9 @@ ul.navbar-nav > li.mega-dropdown {
   color: #fff;
 }
 
+.video-tab .post-overaly-style .post-content .post-title {
+  font-size: 20px !important;
+}
 .video-tab-title {
   color: #fff;
   font-size: 18px;
@@ -2370,7 +2373,10 @@ ul.navbar-nav > li.mega-dropdown {
 }
 
 .video-tab .post-overaly-style .post-content {
-  padding: 35px;
+  width: 100%;
+  padding: 8px 35px;
+
+  background-image: linear-gradient(#46020293, #460202, #190a05);
 }
 
 .video-tab .post-title {
@@ -2793,7 +2799,7 @@ ul.navbar-nav > li.mega-dropdown {
 .single-post .post-title {
   font-family: "Noto Serif", serif;
   letter-spacing: -1px;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 40px;
   padding: 15px 0 8px 0;
   margin: 0;
@@ -3524,6 +3530,10 @@ blockquote:before {
 
 #Mobile_AdsTop1_0 {
   display: none;
+}
+
+.review-post-list .post-content .post-title {
+  font-size: 16px !important;
 }
 
 .review-post-list .post-thumb,
@@ -4380,7 +4390,7 @@ body.modal-open {
   background: #900;
   color: #fff;
   font-size: 12px;
-  padding: 1px 4px;
+  padding: 3px 4px;
   margin: 0px 5px;
   border-radius: 2px;
 }
@@ -4529,6 +4539,9 @@ body.modal-open {
   font-size: 15px !important;
 }
 
+.post-title-area h2 {
+  font-size: 26px !important;
+}
 @media (max-width: 479px) {
   .header .row {
     display: flex;
@@ -4542,6 +4555,25 @@ body.modal-open {
   }
   .cms-author {
     font-size: 15px;
+  }
+  .post-title.title-extra-large {
+    font-size: 20px;
+  }
+  .video-tab .post-overaly-style {
+    min-height: 300px;
+  }
+  .post-title-area h2 {
+    font-size: 22px !important ;
+  }
+  .post-overaly-style .post-content .post-title {
+    font-size: 18px !important;
+  }
+  .p-bottom-0 .widget {
+    padding: 0px !important;
+  }
+
+  .nav-tabs {
+    padding-left: 14px !important;
   }
 }
 
